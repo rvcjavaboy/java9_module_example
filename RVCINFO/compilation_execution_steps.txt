@@ -1,0 +1,91 @@
+/*
+module name should be same to the folder name but not as package name
+
+
+
+requires  ->> is always talks about modules not in package
+
+
+exports  ->>  export is always talks about packages 
+
+
+
+-p is moudle paths
+
+--module-path  moudle paths
+
+-m to run the main moudle
+
+-d package creation
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+ranjit@ranjit-Vostro-1540:~/java9/RVCINFO$ javac  -d company.base/ company.base/module-info.java company.base/Person.java 
+
+ranjit@ranjit-Vostro-1540:~/java9/RVCINFO$ javac -p . -d company.employee/ company.employee/module-info.java company.employee/Employee.java 
+
+ranjit@ranjit-Vostro-1540:~/java9/RVCINFO$ javac -p . -d company.admin/ company.admin/module-info.java  company.admin/Admin.java 
+
+
+
+
+ranjit@ranjit-Vostro-1540:~/java9/RVCINFO$ java -p . -m company.admin/com.rvc.info.admin.Admin
+
+
+Name::Ranjit---- AGE21
+salary ->>>50.66666
+Name ::Ranjit---- AGE21
+salary ->>>50.166666
+Name ::Ranjit---- AGE21
+salary ->>>501.66666
+Name ::Ranjit---- AGE21
+salary ->>>5011.66666
+
+ranjit@ranjit-Vostro-1540:~/java9/RVCINFO$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
